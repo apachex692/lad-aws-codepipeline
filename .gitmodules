@@ -1,0 +1,3 @@
+[submodule "project"]
+	path = project
+	url = git@github.com:sakthisanthosh010303/lad-nginx-flask-docker.git

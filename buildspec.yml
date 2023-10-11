@@ -1,0 +1,12 @@
+# Author: Sakthi Santhosh
+# Created on: 06/10/2023
+version: 0.2
+
+env:
+  shell: /bin/bash
+
+phases:
+  build:
+    on-failure: ABORT
+    commands:
+      - ./scripts/build.sh
